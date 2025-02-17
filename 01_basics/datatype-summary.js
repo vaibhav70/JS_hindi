@@ -16,7 +16,7 @@ const id2 = Symbol("123");
 
 const bigNumber = 910285701927590n;
 
-console.log(typeof bigNumber);
+//console.log(typeof bigNumber);
 
 // Reference
 // Arrays, Obj, Functions
@@ -31,4 +31,22 @@ const myFunction = function() {
     console.log("hello world from function");
 }
 
-console.log(typeof heroes, typeof myObj, typeof myFunction);
+// console.log(typeof heroes, typeof myObj, typeof myFunction);
+
+
+//_______________________________________________________________
+// stack (Primitive),   heap(Non primitive)
+
+let userOne = {
+    name: "kishan",
+    mail: "kishan@mail"
+}
+
+let userTwo = userOne
+
+userTwo.name = "kishnaaa"
+
+//console.log(userOne)
+
+
+
