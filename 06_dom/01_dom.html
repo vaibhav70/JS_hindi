@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DOM Learning</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .bg-black  {
+                background-color: #222;
+                color: #ddd;
+            }
+        </style>
+    </head>
+    <body class="bg-black">
+        <div class="bg-black">
+            <h1 id="title" class="heading">Dom learning Lorem, ipsum.</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <h2>Lorem ipsum dolor sit.</h2>
+            
+            <p>Lorem ipsum dolor sit amet consectetur </p>
+            <input type="password" name="" id="">
+            <ul class="week">
+                <li class="myList">Monday</li>
+                <li class="myList">Tuesday</li>
+                <li class="myList">Wednesday</li>
+            </ul>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+
+    <script>
+        const weekdays = document.querySelector('.week');
+        const dayone = weekdays.children[0];
+        // console.log(dayone);
+        // console.log(dayone.parentElement);
+        // console.log(dayone.nextElementSibling);
+        console.log("Nodes: ", weekdays.childNodes);
+
+        
+        
+        
+    </script>
+</html>
+
+<!-- 
+ 
+document.querySelector()
+
+    .getElementById()
+    Array.from(nodelist);
+    Array.from(htmlcollection)
+
+    innerhtml
+    innertext
+
+
+
+-->
