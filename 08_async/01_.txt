@@ -1,0 +1,17 @@
+Javascript (default js behaviour)
+    synchronus
+    single thread
+
+execution context
+    execute one line of code at a time
+        console.log(1)
+        console.log(2);
+        .
+        .
+each operation waits for the last one to complete before executing
+
+Call Stack, Memory Heap
+
+Blocking code       VS      Non Blocking code
+block the flow of prog      does not block execution
+read file sync              read file async
